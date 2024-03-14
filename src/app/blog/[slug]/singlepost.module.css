@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    gap: 8%;
+    display: flex;
+}
+
+.img {
+    object-fit: cover;
+}
+
+.left {
+    width: 30%;
+    min-height: calc(100vh - 215px);
+    position: relative;
+}
+
+.right {
+    width: 61%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.author {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.authorImage {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+}
+.authorDetailBlock{
+display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+}
+.authorDetailBlockTop{
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+.authorDetailBlockBottom{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content{
+    word-spacing: 1px;
+    font-size: 16px;   
+}

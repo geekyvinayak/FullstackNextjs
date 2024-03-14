@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    gap: 50px;
+}
+
+.textContainer{
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.textContainer h3{
+    color: #2a73fd;
+}
+
+.textContainer h1{
+    font-size: 40px;
+}
+.textContainer p{
+    font-size: 18px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.statsHeading{
+    color: #2a73fd;
+    font-size: 32px;
+}
+
+
+.imageContainer{
+    flex: 1;
+    max-width: 500px; 
+    position: relative;
+}
+
+.description{
+    font-size: 14px
+}
