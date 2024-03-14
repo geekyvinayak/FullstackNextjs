@@ -15,7 +15,7 @@ function BlogIdPage() {
           </div>
           <div className={styles.authorDetailBlock}>
             <span className={styles.authorDetailBlockTop}>Author</span>
-            <span className={styles.authorDetailBlockBottom}>Vinayak</span>
+            <span className={styles.authorDetailBlockBottom}>James</span>
           </div>
           <div className={styles.authorDetailBlock}>
             <span className={styles.authorDetailBlockTop}>Published</span>
