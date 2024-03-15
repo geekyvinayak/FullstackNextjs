@@ -71,4 +71,10 @@
         max-width: 100%;
         flex: none;
     }
+
+    .brands {
+        width: 100%;
+        height: 40px;
+        position: relative;
+    }
 }
