@@ -50,24 +50,25 @@
 
 @media (max-width: 768px) {
     .container {
-        display: grid;
+        display: flex;
         flex-direction: column;
         gap: 30px;
+        flex: none;
     }
 
     .imageContainer {
         height: 50vh;
-        width: 100%;
-        justify-self: center;
         order: 1;
-        max-width: 345px;
+        max-width: 100%;
         min-width: 0;
+        flex: none;
     }
 
 
     .textContainer {
         order: 2;
-        gap:15px;
-        max-width: 345px;
+        gap:30px;
+        max-width: 100%;
+        flex: none;
     }
 }
